@@ -124,7 +124,7 @@ author:
       url: "https://github.com/clearspecific"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/clear.specific/"
       
 # Site Footer
 footer:
@@ -146,7 +146,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/clear.specific/"
 
 
 # Reading Files
