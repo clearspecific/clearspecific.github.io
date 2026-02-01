@@ -99,13 +99,7 @@ defaults:
       comments: true
       share: true
       related: true
-      <script src="https://utteranc.es/client.js"
-        repo="clearspecific/clearspecific.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
   # _pages
   - scope:
       path: "_pages"
@@ -121,4 +115,13 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# -----------------------
+# 댓글 기능 추가 (Utterances)
+# -----------------------
+repository: "clearspecific/clearspecific.github.io"
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # 다크모드 쓰시면 "github-dark"로 변경 가능
+    issue_term: "pathname"
 
